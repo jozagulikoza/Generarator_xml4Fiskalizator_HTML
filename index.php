@@ -7,6 +7,7 @@ include 'Generator.php';
         $gen->spremaDokumente = true;
         $gen->certPath = 'certifikat';
         $gen->certPass = 'pass';
+        // direktorij mora bit kreiran
         $gen->dirXMLDokumntata = './xmldokumenti/';
         // 
         $pp = new PoslovniProstor();
